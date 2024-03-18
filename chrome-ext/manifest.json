@@ -11,5 +11,22 @@
                 "content.js"
             ]
         }
-    ]
+    ], 
+    "background": {
+        "service_worker": "background.js"
+    }, 
+    "action": { 
+        "default_icon": "unicorn.png",
+        "default_title": "Crawling Unicorn",
+        "default_popup": "popUp.html"
+    },
+    "icons": {
+        "16": "unicorn.png",
+        "32": "unicorn.png",
+        "48": "unicorn.png",
+        "128": "unicorn.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "myPage.html"
+    }
 }
